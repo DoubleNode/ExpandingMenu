@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ExpandingMenu"
-  s.version          = "0.3.1"
+  s.version          = "0.3.2"
   s.summary          = "A mune button expanding vertical."
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "monoqlo" => "monoqlo44@gmail.com" }
-  s.source           = { :git => "https://github.com/monoqlo/ExpandingMenu.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/DoubleNode/ExpandingMenu.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/monoqlo'
 
   s.platform     = :ios, '8.0'
