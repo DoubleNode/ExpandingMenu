@@ -168,6 +168,10 @@ open class ExpandingMenuButton: UIView, UIGestureRecognizerDelegate {
         self.menuItems += menuItems
     }
     
+    open func replaceMenuItems(_ menuItems: [ExpandingMenuItem]) {
+        self.menuItems = menuItems
+    }
+    
     // MARK: - Menu Item Tapped Action
     open func menuItemTapped(_ item: ExpandingMenuItem) {
         self.willDismissMenuItems?(self)
